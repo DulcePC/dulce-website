@@ -14,7 +14,7 @@
         </atoms-theButtons>
       </div>
       <figure>
-        <img src="img/placeholder.png" alt="Dulce Perez">
+        <img src="/img/placeholder.png" alt="Dulce Perez">
       </figure>
     </div>
   </section>

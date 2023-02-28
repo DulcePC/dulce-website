@@ -1,11 +1,11 @@
 <template>
-  <a v-if="as === 'a'" class="btn" v-bind="$attrs" v-on="$listeners">
+  <a v-if="as === 'a'" class="btn" v-bind="$attrs">
     <slot />
   </a>
-  <button v-else-if="as === 'button'" class="btn" v-bind="$attrs" v-on="$listeners">
+  <button v-else-if="as === 'button'" class="btn" v-bind="$attrs">
     <slot />
   </button>
-  <nuxt-link v-else to="" class="btn" v-bind="$attrs" v-on="$listeners">
+  <nuxt-link v-else to="" class="btn" v-bind="$attrs">
     <slot />
   </nuxt-link>
 </template>
