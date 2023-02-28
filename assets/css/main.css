@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Raleway:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  h2 { 
+    @apply font-adamia text-black text-2xl px-8 pb-1.5 border-b-[3px] border-primary flex justify-center w-max relative;
+    /* Before */
+    @apply before:absolute before:-bottom-1.5 before:w-14 before:h-[3px] before:bg-primary;
+
+    &.left-style { @apply justify-start pl-0; }
+  }
+
+  p {
+    @apply font-raleway text-black;
+  }
+}
+
+.form-control {
+  @apply w-full h-14 bg-white border border-primary p-4 text-black font-raleway font-bold focus:outline-none;
+}
+
+textarea.form-control { @apply h-80; }

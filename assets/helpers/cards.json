@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/img/blog-1.jpg",
+    "title": "Beauty Salon",
+    "description": "This projects its create with vuejs, about controls clientes shedule",
+    "slug": "https://v2.vuejs.org/v2/guide/single-file-components.html"
+  },
+  {
+    "image": "/img/blog-1.jpg",
+    "title": "Beauty Salon",
+    "description": "This projects its create with vuejs, about controls clientes shedule",
+    "slug": "https://v2.vuejs.org/v2/guide/single-file-components.html"
+  },
+  {
+    "image": "/img/blog-1.jpg",
+    "title": "Beauty Salon",
+    "description": "This projects its create with vuejs, about controls clientes shedule",
+    "slug": "https://v2.vuejs.org/v2/guide/single-file-components.html"
+  }
+]
