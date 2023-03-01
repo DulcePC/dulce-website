@@ -13,9 +13,9 @@
           <textarea class="form-control" placeholder="MESSAGE" />
         </div>
         <div class="flex justify-end md:mt-9 mt-4">
-          <atoms-theButtons as="button" class="lg:min-w-[180px]">
+          <atoms-button class="lg:min-w-[180px]">
             send
-          </atoms-theButtons>
+          </atoms-button>
         </div>
       </form>
     </div>

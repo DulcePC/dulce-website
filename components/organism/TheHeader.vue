@@ -9,31 +9,25 @@
           <a class="lg:text-primary text-white font-semibold text-xs uppercase" :href="link.link">{{ link.title }}</a>
         </li>
       </ul>
-      <atoms-theButtons as="button" class="lg:min-w-[180px] lg:mx-0 ml-auto mr-4">FREE CONSULT</atoms-theButtons>
-      <atoms-theButtons
-        class="menu-icon btn-rounded"
-        as="button"
-        @click="showMenu"
-      >
+      <AtomsButton typeComponent="button" class="lg:min-w-[180px] lg:mx-0 ml-auto mr-4">
+        FREE CONSULT
+      </AtomsButton>
+      <AtomsButton typeComponent="button" class="menu-icon btn-rounded" @click="this.open = !this.open">
         <img src="/img/menu.png" alt="icon" class="w-4">
-      </atoms-theButtons>
+      </AtomsButton>
     </div>
   </header>
 </template>
 
 <script>
-import menu from '~/assets/helpers/menu.json'
+import menu from '~/assets/helpers/menu.json';
+
 export default {
-  data () {
+  data() {
     return {
       links: menu,
       open: false
-    }
-  },
-  methods: {
-    showMenu () {
-      this.open = !this.open
-    }
+    };
   }
 }
 </script>
@@ -43,9 +37,7 @@ ul {
   @apply lg:flex lg:items-center lg:w-max lg:static lg:bg-transparent lg:h-auto
   absolute h-screen top-14 right-0 w-64 bg-primary px-4 hidden;
 
-  &.open {
-    @apply block;
-  }
+  &.open { @apply block; }
 }
 
 .menu-icon { @apply lg:hidden !important; }

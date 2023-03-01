@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <organism-theHeader />
+  <organism-theHeader />
     <slot />
-  </div>
 </template>

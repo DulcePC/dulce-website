@@ -9,9 +9,9 @@
           <span class="block font-adamia text-black text-[80px] leading-[100px]">I'am</span>
           <span class="font-raleway font-thin text-primary text-opacity-50 md:text-4xl text-2xl uppercase">Front-end developer</span>
         </h1>
-        <atoms-theButtons as="a" class="mt-4 md:ml-0 mx-auto">
+        <atoms-button class="mt-4 md:ml-0 mx-auto">
           Download My CV
-        </atoms-theButtons>
+        </atoms-button>
       </div>
       <figure>
         <img src="/img/placeholder.png" alt="Dulce Perez">
