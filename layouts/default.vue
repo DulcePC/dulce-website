@@ -1,4 +1,4 @@
 <template>
-  <organism-theHeader />
+  <organismHeader />
     <slot />
 </template>
