@@ -1,12 +1,12 @@
 <template>
-  <header class="w-full lg:h-24 h-14 shadow-md flex items-center fixed top-0 bg-white z-20">
+  <header class="w-full h-14 shadow-md flex items-center fixed top-0 bg-white z-20">
     <div class="container mx-auto flex items-center lg:justify-between px-4">
       <NuxtLink to="/" class="flex-none">
-        <img src="/img/logo.png" alt="Dulce Perez" class="lg:w-44 w-24 object-contain">
+        <img src="/img/logo.png" alt="Dulce Perez" class="lg:w-32 w-24 object-contain">
       </NuxtLink>
       <ul :class="{ open: open }">
         <li v-for="link in links" :key="link.id" class="lg:px-6 py-2">
-          <a class="lg:text-primary text-white font-semibold text-sm uppercase" :href="`#${link}`" @click="this.open = false" v-smooth-scroll>
+          <a class="lg:text-primary text-white font-semibold text-sm uppercase" :href="`#${link}`" v-smooth-scroll @click="this.open = false">
             {{ link }}
           </a>
         </li>

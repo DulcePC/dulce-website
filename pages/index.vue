@@ -1,5 +1,5 @@
 <template>
-  <main class="lg:pt-24 pt-14 border-n border-b-[30px] border-primary">
+  <main class="pt-14 border-n border-b-[30px] border-primary">
     <molecules-fixed-social-media />
     <PopulationHeroSection></PopulationHeroSection>
     <PopulationAbout></PopulationAbout>

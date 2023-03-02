@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply scroll-smooth;
+}
+
 @layer utilities {
   h2 { 
     @apply font-adamia text-black text-2xl px-8 pb-1.5 border-b-[3px] border-primary flex justify-center w-max relative;
