@@ -1,0 +1,14 @@
+[
+  {
+    "img": "/img/october-studio.jpg",
+    "title": "October studio",
+    "description": "Website layout with HTML, CSS, JQUERY, Bootstrap",
+    "pageLink": "https://octoberstudio.com.do/"
+  },
+  {
+    "img": "/img/kation.jpg",
+    "title": "Kation Interactive",
+    "description": "Front developer of the website with Nuxt framework",
+    "pageLink": "#!"
+  }
+]

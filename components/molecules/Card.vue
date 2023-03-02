@@ -1,12 +1,14 @@
 <template>
-  <nuxt-link to="/detail" class="card" v-bind="$attrs">
+  <a :href="information.pageLink" target="_blank" class="card">
     <figure>
-      <img :src="information.attributes.image" :alt="information.title">
+      <img :src="information.img" :alt="information.title">
     </figure>
-    <h4>{{ information.attributes.title }}</h4>
-    <p>{{ information.attributes.description }}</p>
-    <span>View more</span>
-  </nuxt-link>
+    <div class="px-2">
+      <h4>{{ information.title }}</h4>
+      <p>{{ information.description }}</p>
+      <span>View more</span>
+    </div>
+  </a>
 </template>
 
 <script>
@@ -24,21 +26,19 @@ export default {
   @apply w-full;
 
   figure {
-    @apply mb-3 overflow-hidden w-full;
+    @apply mb-3 overflow-hidden w-full h-60;
 
     img {
-      @apply w-full h-60 object-cover object-center duration-300;
+      @apply w-full h-full object-cover object-center duration-300;
     }
   }
 
-  h4 { @apply font-adamia text-black mb-2 text-xl; }
+  h4 { @apply font-adamia font-semibold text-black mb-2 text-xl; }
 
-  p { @apply text-base font-raleway text-black mb-4; }
+  p { @apply text-base font-raleway font-normal text-black mb-4; }
 
-  span { @apply font-raleway text-primary; }
+  span { @apply font-raleway text-primary font-semibold; }
 
   &:hover figure img { @apply scale-110; }
-  &:hover span { @apply font-bold; }
-
 }
 </style>

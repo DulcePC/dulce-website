@@ -6,14 +6,14 @@
       </NuxtLink>
       <ul :class="{ open: open }">
         <li v-for="link in links" :key="link.id" class="lg:px-6 py-2">
-          <NuxtLink class="lg:text-primary text-white font-semibold text-xs uppercase" :to="link">
+          <NuxtLink class="lg:text-primary text-white font-semibold text-sm uppercase" :to="link">
             {{ link }}
           </NuxtLink>
         </li>
       </ul>
-      <AtomsButton typeComponent="button" class="lg:min-w-[180px] lg:mx-0 ml-auto mr-4">
+      <!-- <AtomsButton typeComponent="button" class="lg:min-w-[180px] lg:mx-0 ml-auto mr-4">
         FREE CONSULT
-      </AtomsButton>
+      </AtomsButton> -->
       <AtomsButton typeComponent="button" class="menu-icon btn-rounded" @click="this.open = !this.open">
         <img src="/img/menu.png" alt="icon" class="w-4">
       </AtomsButton>

@@ -6,22 +6,13 @@
     <PopulationServices></PopulationServices>
     <PopulationProjects></PopulationProjects>
     <!-- <PopulationBlog></PopulationBlog> -->
-    <PopulationContact></PopulationContact>
+    <!-- <PopulationContact></PopulationContact> -->
   </main>
 </template>
 
 <script>
 
 export default {
-  name: 'HomePage',
-  // async asyncData ({ $axios }) {
-  //   const { data } = await $axios.get('/blogs')
-  //   return { posts: data.data }
-  // },
-  data () {
-    return {
-      card: {}
-    }
-  }
+  name: 'HomePage'
 }
 </script>
