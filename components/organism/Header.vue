@@ -6,7 +6,7 @@
       </NuxtLink>
       <ul :class="{ open: open }">
         <li v-for="link in links" :key="link.id" class="lg:px-6 py-2">
-          <a class="lg:text-primary text-white font-semibold text-sm uppercase" :href="`#${link}`" v-smooth-scroll>
+          <a class="lg:text-primary text-white font-semibold text-sm uppercase" :href="`#${link}`" @click="this.open = false" v-smooth-scroll>
             {{ link }}
           </a>
         </li>
@@ -14,7 +14,7 @@
       <!-- <AtomsButton typeComponent="button" class="lg:min-w-[180px] lg:mx-0 ml-auto mr-4">
         FREE CONSULT
       </AtomsButton> -->
-      <AtomsButton typeComponent="button" class="menu-icon btn-rounded" @click="this.open = !this.open">
+      <AtomsButton typeComponent="button" class="menu-icon btn-icon ml-auto" @click="this.open = !this.open">
         <img src="/img/menu.png" alt="icon" class="w-4">
       </AtomsButton>
     </div>
