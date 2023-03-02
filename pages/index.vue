@@ -5,7 +5,7 @@
     <PopulationAbout></PopulationAbout>
     <PopulationServices></PopulationServices>
     <PopulationProjects></PopulationProjects>
-    <PopulationBlog></PopulationBlog>
+    <!-- <PopulationBlog></PopulationBlog> -->
     <PopulationContact></PopulationContact>
   </main>
 </template>

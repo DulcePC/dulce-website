@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-white pb-48">
+  <section class="bg-white py-24">
     <div class="container">
       <h2 class="md:left-style md:m-0 mx-auto">
-        Contact
+        Contact 
       </h2>
       <form class="mt-12">
         <div class="grid md:grid-cols-2 grid-cols-1 md:gap-11 gap-4 md:mb-9 mb-4">
