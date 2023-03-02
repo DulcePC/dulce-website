@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-secondary bg-opacity-[0.15] md:pt-20 md:pb-48 py-8">
+  <section class="bg-secondary bg-opacity-[0.15] md:pt-20 md:pb-48 py-8" id="about">
     <div class="container">
       <h2 class="mx-auto">
         About me

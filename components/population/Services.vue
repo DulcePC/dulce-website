@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white lg:py-24 md:py-14 py-8">
+  <section class="bg-white lg:py-24 md:py-14 py-8" id="services">
     <div class="container">
       <h2 class="md:left-style md:m-0 mx-auto">
         Services Offer

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-secondary bg-opacity-[0.15] pt-20 pb-48">
+  <section class="bg-secondary bg-opacity-[0.15] pt-20 pb-48" id="projects">
     <div class="container">
       <h2 class="mx-auto">
         My Projects

@@ -2,6 +2,6 @@ export const menu = [
   'about',
   'services',
   'projects',
-  'blog',
-  'contact'
+  // 'blog',
+  // 'contact'
 ]

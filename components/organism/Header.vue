@@ -6,9 +6,9 @@
       </NuxtLink>
       <ul :class="{ open: open }">
         <li v-for="link in links" :key="link.id" class="lg:px-6 py-2">
-          <NuxtLink class="lg:text-primary text-white font-semibold text-sm uppercase" :to="link">
+          <a class="lg:text-primary text-white font-semibold text-sm uppercase" :href="`#${link}`" v-smooth-scroll>
             {{ link }}
-          </NuxtLink>
+          </a>
         </li>
       </ul>
       <!-- <AtomsButton typeComponent="button" class="lg:min-w-[180px] lg:mx-0 ml-auto mr-4">
