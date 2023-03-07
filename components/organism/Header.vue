@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import {menu} from '~~/assets/helpers/menu';
+import {menu} from '~~/assets/mocks/menu';
 
 export default {
   data() {

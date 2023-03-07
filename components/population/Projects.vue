@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import projects from '~~/assets/helpers/projects';
+import projects from '~~/assets/mocks/projects';
 
 export default {
   data() {
