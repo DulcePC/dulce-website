@@ -26,10 +26,10 @@ export default {
   @apply w-full;
 
   figure {
-    @apply mb-3 overflow-hidden w-full h-60;
+    @apply mb-3 overflow-hidden w-full h-60 bg-white flex items-center justify-center;
 
     img {
-      @apply w-full h-full object-cover object-center duration-300;
+      @apply object-contain object-center duration-300;
     }
   }
 
