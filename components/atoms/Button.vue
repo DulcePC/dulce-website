@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'AppButton',
   props: {
     typeComponent: {
       type: String,

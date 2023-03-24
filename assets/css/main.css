@@ -24,5 +24,3 @@ body {
 .form-control {
   @apply w-full h-14 bg-white border border-primary p-4 text-black font-raleway font-bold focus:outline-none;
 }
-
-textarea.form-control { @apply h-80; }

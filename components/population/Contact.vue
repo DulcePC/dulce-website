@@ -1,23 +1,18 @@
 <template>
-  <section class="bg-white py-24">
-    <div class="container">
-      <h2 class="md:left-style md:m-0 mx-auto">
+  <section class="bg-white py-8">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-center  mx-auto">
         Contact 
       </h2>
-      <form class="mt-12">
-        <div class="grid md:grid-cols-2 grid-cols-1 md:gap-11 gap-4 md:mb-9 mb-4">
-          <input type="text" class="form-control" placeholder="Name">
-          <input type="text" class="form-control" placeholder="SUBJECT">
-        </div>
-        <div class="grid grid-cols-1">
-          <textarea class="form-control" placeholder="MESSAGE" />
-        </div>
-        <div class="flex justify-end md:mt-9 mt-4">
-          <atoms-button class="lg:min-w-[180px]">
-            send
-          </atoms-button>
-        </div>
-      </form>
+      <div class="flex justify-center mt-10">
+        <AtomsButton typeComponent="a" href="mailto:notificaciones@dulceperezcastillo.com">Get in touch</AtomsButton>
+      </div>
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: "Contact"
+}
+</script>

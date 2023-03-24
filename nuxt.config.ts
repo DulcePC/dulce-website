@@ -8,10 +8,12 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/png', href: '/img/logo.png' }
       ],
-      title: "Dulce Pérez"
+      title: "Dulce Pérez",
     }
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+  ],
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
   },
