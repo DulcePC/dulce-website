@@ -26,6 +26,7 @@
             <li>Tailwindcss</li>
             <li>JavaScript</li>
             <li>Vue</li>
+            <li>Nuxt</li>
             <li>Angular</li>
             <li>Ionic</li>
             <li>Strapi</li>
