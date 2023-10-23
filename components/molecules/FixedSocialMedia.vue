@@ -12,19 +12,12 @@
   </nav>
 </template>
 
-<script>
-
-export default {
-  data() {
-    return {
-      contact: {
-        email: "dulcefrancelispc@gmail.com",
-        linkedin: "https://www.linkedin.com/in/dulceperezsoft",
-        github: "https://github.com/DulcePC"
-      }
-    }
-  }
-}
+<script setup>
+const contact = {
+  email: "dulcefrancelispc@gmail.com",
+  linkedin: "https://www.linkedin.com/in/dulceperezsoft",
+  github: "https://github.com/DulcePC"
+};
 </script>
 
 <style lang="postcss" scoped>

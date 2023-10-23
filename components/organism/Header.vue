@@ -21,17 +21,12 @@
   </header>
 </template>
 
-<script>
-import {menu} from '~~/assets/mocks/menu';
+<script lang="ts" setup>
+import { menu } from '~~/assets/mocks/menu';
 
-export default {
-  data() {
-    return {
-      links: menu,
-      open: false
-    };
-  }
-}
+const links = menu;
+const open = ref(false);
+
 </script>
 
 <style lang="postcss" scoped>

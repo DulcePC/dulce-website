@@ -10,7 +10,7 @@ export default {
   props: {
     typeComponent: {
       type: String,
-      default: 'nuxt-link'
+      default: 'NuxtLink'
     }
   },
 }

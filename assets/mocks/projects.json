@@ -3,12 +3,12 @@
     "img": "/img/kation.jpg",
     "title": "Kation Interactive",
     "description": "Front developer of the website with Nuxt framework",
-    "pageLink": "#!"
+    "pageLink": "https://www.kation.com.do/"
   },
   {
-    "img": "/img/logo-october.svg",
-    "title": "October studio",
-    "description": "Website layout with HTML, CSS, JQUERY, Bootstrap",
-    "pageLink": "https://octoberstudio.com.do/"
+    "img": "http://new.guiamundialhispana.com/wp-content/themes/guia_mundialhispana/img/logo.png",
+    "title": "Guía mundial hispana",
+    "description": "All Front developer of the website with Nuxt framework",
+    "pageLink": "https://www.kation.com.do/"
   }
 ]
