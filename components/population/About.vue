@@ -17,19 +17,20 @@
             My skills as a junior front-end developer typically include proficiency in HTML, CSS, and JavaScript, also have experience with front-end frameworks and libraries such as Angular and Vue.
           </p>
           <p class="leading-8 text-base lg:text-left text-center mb-2">
-            I have worked with several local companies such as October studio and dynamiscreative, currently working as Front end team leader at Kation Interactive
+            I have worked with several local companies such as October studio and dynamiscreative, currently working as Front end team leader at <br> <a href="https://www.kation.com.do/" target="_blanck"><b>Kation Interactive</b></a>
           </p>
           <h6 class="font-semibold text-2xl mb-2">My skills</h6>
-          <ul class="text-base lg:text-left text-center flex flex-wrap gap-2">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Tailwindcss</li>
-            <li>JavaScript</li>
-            <li>Vue</li>
-            <li>Nuxt</li>
-            <li>Angular</li>
-            <li>Ionic</li>
-            <li>Strapi</li>
+          <ul class="text-base list-disc text-left pl-8">
+            <li class="mb-2">HTML5</li>
+            <li class="mb-2">CSS3</li>
+            <li class="mb-2">Tailwindcss</li>
+            <li class="mb-2">Bootstrap</li>
+            <li class="mb-2">JavaScript</li>
+            <li class="mb-2">Beginner Typescript</li>
+            <li class="mb-2">Nuxt</li>
+            <li class="mb-2">Beginner Angular</li>
+            <li class="mb-2">Ionic</li>
+            <li class="mb-2">Strapi</li>
           </ul>
         </div>
         <div class="flex items-center">

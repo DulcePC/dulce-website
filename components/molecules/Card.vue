@@ -1,12 +1,13 @@
 <template>
-  <a :href="information.pageLink" target="_blank" class="card">
+  <a :href="information.status === 'finished' ? information.pageLink : '/'"  :target="information.status === 'finished' ? '_blank' : ''" class="card">
     <figure>
       <img :src="information.img" :alt="information.title">
     </figure>
     <div class="px-2">
       <h4>{{ information.title }}</h4>
       <p>{{ information.description }}</p>
-      <span>View more</span>
+      <span v-if="information.status === 'finished'">View more</span>
+      <span v-else class="bg-blue-400 text-white p-2 rounded-lg">This page is in progress...</span>
     </div>
   </a>
 </template>

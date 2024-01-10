@@ -18,9 +18,6 @@
           <li class="border-b border-black md:pl-12 pb-2 mb-4 last:mb-0">
             Front-end development for web applications
           </li>
-          <li class="border-b border-black md:pl-12 pb-2 mb-4 last:mb-0">
-            User experience (UX) design
-          </li>
         </ul>
       </div>
     </div>
