@@ -1,7 +1,7 @@
 <template>
   <main class="pt-14 border-n border-b-[30px] border-primary">
     <molecules-fixed-social-media />
-    <PopulationHeroSection></PopulationHeroSection>
+    <PopulationHero></PopulationHero>
     <PopulationAbout></PopulationAbout>
     <PopulationServices></PopulationServices>
     <PopulationProjects></PopulationProjects>
